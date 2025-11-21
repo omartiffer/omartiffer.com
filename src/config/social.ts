@@ -11,7 +11,7 @@ const socialIcons = {
       fill: "base-content",
       width: 24,
       height: 24,
-      href: "https://github.com/oatiffer",
+      href: "https://github.com/omartiffer",
     },
     {
       title: "LinkedIn",
@@ -27,7 +27,7 @@ const socialIcons = {
       fill: "[#EA4335]",
       width: 24,
       height: 24,
-      href: "mailto:hello@omartiffer.cloud",
+      href: "mailto:contact@omartiffer.cloud",
     },
   ],
   about: [
@@ -37,7 +37,7 @@ const socialIcons = {
       fill: "base-content",
       width: 22,
       height: 22,
-      href: "https://github.com/oatiffer",
+      href: "https://github.com/omartiffer",
     },
     {
       title: "LinkedIn",
