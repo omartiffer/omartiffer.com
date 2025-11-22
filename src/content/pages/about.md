@@ -3,26 +3,26 @@ about:
   pageTitle: "About"
   intro:
     title: "Quick intro"
-    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles — from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy goal now? To fully transition into Cloud and DevOps engineering — bringing together years of infrastructure experience, programming knowledge, a drive for continuous learning, and a mindset for automation and scalability."
+    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles, from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy goal now? To fully transition into Cloud and DevOps engineering, bringing together years of infrastructure experience, programming knowledge, a drive for continuous learning, and a mindset for automation and scalability."
   journey:
     title: "The timeline"
     items:
       - date: "Today"
         role: "Transition & Cloud/DevOps Focus"
-        summary: "After a period of professional uncertainty brought on by circumstances beyond my control, I’ve focused on upskilling and preparing for the next stage of my career. I've been working toward the AWS Solutions Architect Associate certification while reinforcing my knowledge of Git, cloud architecture, and DevOps practices. This time has helped me refocus my long-term goals — aiming to grow into a Cloud or DevOps engineering role where I can bring together my experience in infrastructure, programming, and problem-solving."
+        summary: "In the last year, I’ve focused on upskilling and preparing for the next stage of my career. I've been working toward the AWS Solutions Architect Associate certification while reinforcing my knowledge of Git, cloud architecture, and DevOps practices. This time has helped me refocus my long-term goals, aiming to grow into a Cloud or DevOps engineering role where I can bring together my experience in infrastructure, programming, and problem-solving."
         stack:
           ["AWS", "GitHub Actions", "Cloudflare", "Netlify", "Docker", "Python"]
       - date: "2023 - 2025"
-        role: "Data Migration Specialist - LegalTech SaaS"
-        summary: "I joined a legal management SaaS company as part of the migrations team, helping law firms transition their data from legacy systems into our platform. My role involved engaging with clients to understand their data sources, then transforming their data — whether from SQL backups, or other formats — into our platform's import templates. I used tools like Python, SQL, and Excel to clean, parse, and reshape data for import. I also monitored import jobs, resolved issues, and occasionally used the API to make post-migration updates with custom scripts. Throughout the process, I kept close communication with clients over email and follow-up calls, often stepping in to answer product-related questions when needed."
+        role: "Data Migration Engineer - LegalTech SaaS"
+        summary: "I joined a legal management SaaS company as part of the migrations team, helping law firms transition their data from legacy systems into our platform. My role involved engaging with clients to understand their data sources, then transforming their data, whether from SQL backups or other formats, into our platform's import templates. I used tools like Python, SQL, and Excel to clean, parse, and reshape data for import. I also monitored import jobs, resolved issues, and occasionally used the API to make post-migration updates with custom scripts. Throughout the process, I kept close communication with clients over email and follow-up calls, often stepping in to answer product-related questions when needed."
         stack: ["Python", "SQL", "REST APIs", "Excel"]
       - date: "2023"
         role: "Relocated to the U.S."
-        summary: "I moved to the United States with my family, leaving behind an increasingly unstable social and political environment in our home country. Starting over in a new country brought personal and professional challenges — but also opened the door to new opportunities and growth in tech."
+        summary: "I relocated to the United States with my family, navigating both personal and professional changes while continuing to build my path in tech."
         stack: ["Resilience", "Adaptability"]
       - date: "2022 - 2023"
-        role: "Frontend Development - Costa Rican Agency/Startup"
-        summary: "I joined a development team focused on a React-based SaaS app, contributing new features, UI fixes, and enhancements using React, Redux, Tailwind, and Vitest. I became comfortable working independently — translating Figma designs into pixel-perfect, responsive interfaces — while also supporting my fellow junior developers through pair programming and technical guidance. We used Git for version control and Azure DevOps for ticket tracking and daily standups. I also ramped up quickly on jQuery and SCSS for a separate project, delivering results under a tight timeline. This role helped solidify my frontend fundamentals and my ability to thrive in a fast-paced, collaborative environment."
+        role: "Frontend Developer - Costa Rican Agency/Startup"
+        summary: "I joined a development team focused on a React-based SaaS app, contributing new features, UI fixes, and enhancements using React, Redux, Tailwind, and Vitest. I became comfortable working independently, translating Figma designs into pixel-perfect, responsive interfaces, while also supporting my fellow junior developers through pair programming and technical guidance. We used Git for version control and Azure DevOps for ticket tracking and daily standups. I also ramped up quickly on jQuery and SCSS for a separate project, delivering results under a tight timeline. This role helped solidify my frontend fundamentals and my ability to thrive in a fast-paced, collaborative environment."
         stack:
           [
             "React",
@@ -35,28 +35,28 @@ about:
           ]
       - date: "2021 - 2022"
         role: "Sabbatical - Web Development Bootcamp"
-        summary: "I took time off to pivot into web development, enrolling in a full-time bootcamp where I learned HTML, CSS, JavaScript, React, Vue, PHP, Laravel, and MySQL. Through hands-on projects, I built everything from responsive layouts based on Figma designs to dynamic content sites powered by public APIs, as well as foundational fullstack apps — like a to-do list and a real-time chat app — using React on the frontend and Laravel on the backend. This experience marked a key shift from infrastructure to software development and laid the foundation for my next chapter in tech."
+        summary: "I took time off to pivot into web development, enrolling in a full-time bootcamp where I learned HTML, CSS, JavaScript, React, Vue, PHP, Laravel, and MySQL. Through hands-on projects, I built everything from responsive layouts based on Figma designs to dynamic content sites powered by public APIs, as well as foundational fullstack apps, like a to-do list and a real-time chat app, using React on the frontend and Laravel on the backend. This experience laid the foundation for my next role in tech."
         stack: ["HTML", "CSS", "JavaScript", "React", "PHP", "Laravel", MySQL]
       - date: "2019 - 2021"
-        role: "Technical Sales Engineer - IBM, Lenovo & VMware Partner"
+        role: "Presales Engineer - IBM, Lenovo & VMware Partner"
         summary: "In this role, I supported the design and quoting of enterprise solutions built on Lenovo servers, IBM servers and IBM i (AS/400) systems, often collaborating with international teams to tailor configurations for client needs. I also managed VMware licensing for new bids and renewal cycles, acting as the technical point of contact for the sales team. Over two years, I developed a deeper understanding of legacy enterprise systems and licensing workflows, while refining my ability to deliver solutions across distributed teams and platforms."
         stack:
           ["IBM", "Lenovo", "IBMi/PowerVM", "VMware vSphere", "VMware Horizon"]
       - date: "2018 - 2019"
-        role: "Pre-Sales & Implementation Engineer - DellEMC & VMware Partner"
+        role: "Presales & Implementation Engineer - DellEMC & VMware Partner"
         summary: "Building on my earlier infrastructure work, I took on a hybrid role handling both solution design and implementation for DellEMC servers, storage, and VMware environments. I delivered a full-stack virtualization deployment, including DellEMC rack servers, network switches, and centralized SAN storage — from scoping to final delivery. During this time, I earned my second VMware VCP certification (Data Center Virtualization) and became an F5 Certified Administrator while assisting with the setup of Big-IP load balancers. This role sharpened my ability to own projects end-to-end, blending client-facing pre-sales with hands-on engineering."
         stack: ["DellEMC", "VMware vSphere", "F5 BIG-IP"]
       - date: "2017 - 2018"
-        role: "Technical Sales Engineer - HPE & VMware Partner"
-        summary: "In this associate role, I supported the pre-sales process for HPE servers, storage, and VMware solutions. I worked closely with clients to understand their technical needs, translated them into tailored hardware and licensing proposals, and used HPE’s configurator to design solutions. I also served as the point of contact with HPE and VMware for quoting and licensing. While the company was navigating a challenging period, the role helped me build a strong foundation in solution scoping and technical sales processes."
+        role: "Presales Engineer - HPE & VMware Partner"
+        summary: "In this associate role, I supported the pre-sales process for HPE servers, storage, and VMware solutions. I worked closely with clients to understand their technical needs, translated them into tailored hardware and licensing proposals, and used HPE’s quoting platform to design solutions. I also served as the point of contact with HPE and VMware for quoting and licensing. It was a brief but impactful role that strengthened my foundation in solution scoping and presales processes."
         stack: ["HPE", "VMware"]
       - date: "2014 - 2017"
         role: "Technical Support Engineer - Dell & VMware Partner"
-        summary: "At this IT services provider, I worked alongside senior engineers to deploy Dell servers, storage, backup, and VMware-based virtualization solutions — both in data center and desktop environments. I contributed to POCs for desktop virtualization and Dell backup software, configured Layer 2 Dell switches, and supported full-stack implementations. During this time, I earned certifications in Server+, Network+, VMware Desktop Virtualization, and later became a Cisco UCS Support Specialist as the company expanded into UCS-based data center offerings. I also stepped into pre-sales tasks — configuring hardware on Dell’s quoting platform, supporting technical validations for tenders, and assisting with solution scoping."
+        summary: "At this IT services provider, I worked alongside senior engineers to deploy Dell servers, storage, backup, and VMware-based data center virtualization solutions. I contributed to POCs for desktop virtualization and Dell backup software, configured Layer 2 Dell switches, and supported full-stack implementations. During this time, I earned certifications in Server+, Network+, VMware Desktop Virtualization, and later became a Cisco UCS Support Specialist as the company expanded into UCS-based data center offerings. I also stepped into pre-sales tasks, configuring hardware on Dell’s quoting platform, supporting technical validations for tenders, and assisting with solution scoping."
         stack: ["DellEMC", "VMware vSphere", "VMware Horizon", "Cisco UCS"]
       - date: "2010 - 2014"
         role: "Technical Support Analyst - Government Institution"
-        summary: "In this role, I expanded my skills into end-user support and enterprise infrastructure. I provided hardware and software support for PCs, mobile devices, and small switches, handled user provisioning via Active Directory, and prepped new machines from the ground up. On the infrastructure side, I helped manage a Red Hat-based email server and its Sophos security appliance, and supported the transition from bare metal to a VMware vSphere environment — gaining hands-on experience with virtualization and centralized infrastructure management."
+        summary: "In this role, I expanded my skills into end-user support and enterprise infrastructure. I provided hardware and software support for PCs, mobile devices, and small switches, handled user provisioning via Active Directory, and prepped new machines from the ground up. On the infrastructure side, I helped manage a Red Hat-based email server and its Sophos security appliance, and supported the transition from bare metal to a VMware vSphere environment, gaining hands-on experience with virtualization and centralized infrastructure management."
         stack: ["Linux", "Sophos", "VMware vSphere", "End-user support"]
       - date: "2008 - 2010"
         role: "Linux System Administrator - (.ni) Domain Registry"
@@ -77,11 +77,11 @@ about:
     title: "The certs"
     description:
       "These are some of the certifications I’ve picked up along the way. A few
-      are still current, others have expired, and some I’m working on now — but
+      are still current, others have expired, and some I’m working on now, but
       all of them reflect parts of the journey and the areas I’ve spent time
       learning and working in."
     certList:
-      - name: "AWS Certified Solutions Architect – Associate"
+      - name: "AWS Certified Solutions Architect - Associate"
         img: "aws"
         link: ""
         valid: false
@@ -93,7 +93,7 @@ about:
         valid: true
         inProgress: false
         status: "Current"
-      - name: "VMware Certified Professional – Data Center Virtualization"
+      - name: "VMware Certified Professional - Data Center Virtualization"
         img: "vmware"
         link: "https://www.credly.com/badges/eea2bcfd-c210-4fe0-bb0a-d42c6d3856c7/public_url"
         valid: true
@@ -131,7 +131,7 @@ about:
         status: "Expired"
   cta:
     - title: "Projects"
-      description: "Things I’ve been building while sharpening my Cloud and DevOps skills — small tools, experiments, and scripts that help me automate, learn, or solve something practical."
+      description: "Things I’ve been building while sharpening my Cloud and DevOps skills, small tools, experiments, and scripts that help me automate, learn, or solve something practical."
       button: "Browse my projects"
     - title: "Blog (coming soon)"
       description: "Thoughts, notes, and observations from my learning journey and how I’m bridging infrastructure and code."
@@ -140,10 +140,10 @@ about:
     - title: "Beyond tech"
       bullets:
         - "Nine years as a husband, and four as the dad of a lovely little girl."
-        - "I value time with my family — it’s non-negotiable."
+        - "I value time with my family, it’s non-negotiable."
         - "I’m an introvert. My social battery runs low (I’m friendly, I promise)."
-        - "I prefer quiet routines — walking, reflecting, or just stepping away from the screen."
-        - "I’m a soccer fan. I used to play regularly — back when my knees cooperated."
+        - "I prefer quiet routines: walking, reflecting, or just stepping away from the screen."
+        - "I’m a soccer fan. I used to play regularly, back when my knees cooperated."
     - title: '"Fun facts"'
       bullets:
         - "I’m not fully human until I’ve had my morning coffee."
