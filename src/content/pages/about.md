@@ -3,13 +3,13 @@ about:
   pageTitle: "About"
   intro:
     title: "Quick intro"
-    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles, from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy goal now? To fully transition into Cloud and DevOps engineering, bringing together years of infrastructure experience, programming knowledge, a drive for continuous learning, and a mindset for automation and scalability."
+    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles, from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy focus now is on gradually expanding my skills in cloud platforms and DevOps practices, drawing on years of infrastructure work, programming experience, and a steady commitment to learning and automation."
   journey:
     title: "The timeline"
     items:
       - date: "Today"
-        role: "Transition & Cloud/DevOps Focus"
-        summary: "In the last year, I’ve focused on upskilling and preparing for the next stage of my career. I've been working toward the AWS Solutions Architect Associate certification while reinforcing my knowledge of Git, cloud architecture, and DevOps practices. This time has helped me refocus my long-term goals, aiming to grow into a Cloud or DevOps engineering role where I can bring together my experience in infrastructure, programming, and problem-solving."
+        role: "Transition - Cloud & DevOps Exploration"
+        summary: "Over the past year, I’ve been gradually building my understanding of cloud architecture and modern DevOps practices. I’ve been working toward the AWS Solutions Architect Associate certification while strengthening my familiarity with related tooling. This phase has helped me clarify my long-term interests as I continue moving toward roles where I can connect my infrastructure background with programming and automation."
         stack:
           ["AWS", "GitHub Actions", "Cloudflare", "Netlify", "Docker", "Python"]
       - date: "2023 - 2025"
