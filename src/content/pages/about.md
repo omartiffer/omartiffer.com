@@ -9,9 +9,9 @@ about:
     items:
       - date: "Today"
         role: "Transition - Cloud & DevOps Exploration"
-        summary: "Over the past year, I’ve been gradually building my understanding of cloud architecture and modern DevOps practices. I’ve been working toward the AWS Solutions Architect Associate certification while strengthening my familiarity with related tooling. This phase has helped me clarify my long-term interests as I continue moving toward roles where I can connect my infrastructure background with programming and automation."
+        summary: "Over the past year, I’ve been gradually building my understanding of cloud architecture, modern DevOps practices, and related tooling. This phase has helped me clarify my long-term interests as I continue moving toward roles where I can connect my infrastructure background with programming and automation."
         stack:
-          ["AWS", "GitHub Actions", "Cloudflare", "Netlify", "Docker", "Python"]
+          ["Linux", "Cloud", "Automation", "CI/CD", "IaC"]
       - date: "2023 - 2025"
         role: "Data Migration Engineer - LegalTech SaaS"
         summary: "I joined a legal management SaaS company as part of the migrations team, helping law firms transition their data from legacy systems into our platform. My role involved engaging with clients to understand their data sources, then transforming their data, whether from SQL backups or other formats, into our platform's import templates. I used tools like Python, SQL, and Excel to clean, parse, and reshape data for import. I also monitored import jobs, resolved issues, and occasionally used the API to make post-migration updates with custom scripts. Throughout the process, I kept close communication with clients over email and follow-up calls, often stepping in to answer product-related questions when needed."
