@@ -1,10 +1,10 @@
 # My portfolio/blog website
 
-[![License: MIT](https://img.shields.io/github/license/oatiffer/omartiffer.cloud)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/oatiffer/omartiffer.com)](LICENSE)
 
-This is the source code for my website: [omartiffer.cloud](https://omartiffer.cloud). It’s intended to serve as a portfolio of projects I’m working on, and a blog to document my journey and share what I’m learning.
+This is the source code for my website: [omartiffer.com](https://omartiffer.com). It’s intended to serve as a portfolio of projects I’m working on, and a blog to document my journey and share what I’m learning.
 
-![Screenshot of omartiffer.cloud homepage](src/assets/images/screenshot.png)
+![Screenshot of omartiffer.com homepage](src/assets/images/screenshot.png)
 
 ## 🛠️ Tech stack
 
@@ -49,13 +49,13 @@ This is the source code for my website: [omartiffer.cloud](https://omartiffer.cl
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/oatiffer/omartiffer.cloud.git
+git clone https://github.com/oatiffer/omartiffer.com.git
 ```
 
 ### 2. Go into the project directory
 
 ```bash
-cd omartiffer.cloud
+cd omartiffer.com
 ```
 
 ### 3. Install dependencies

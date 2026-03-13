@@ -8,7 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://omartiffer.cloud",
+  site: "https://omartiffer.com",
   trailingSlash: "never",
   integrations: [sitemap()],
 });
