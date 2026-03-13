@@ -49,7 +49,7 @@ This is the source code for my website: [omartiffer.com](https://omartiffer.com)
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/oatiffer/omartiffer.com.git
+git clone https://github.com/omartiffer/omartiffer.com.git
 ```
 
 ### 2. Go into the project directory
