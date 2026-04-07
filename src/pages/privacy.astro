@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-import Privacy from "@components/Privacy.astro";
+import PrivacyComponent from "@components/Privacy.astro";
 import { getEntry, type CollectionEntry } from "astro:content";
 
 const {
@@ -9,5 +9,5 @@ const {
 ---
 
 <BaseLayout title={`Omar Tiffer - ${pageTitle}`}>
-  <Privacy {...rest} />
+  <PrivacyComponent {...rest} />
 </BaseLayout>
