@@ -1,6 +1,6 @@
 # My portfolio/blog website
 
-[![License: MIT](https://img.shields.io/github/license/oatiffer/omartiffer.com)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/omartiffer/omartiffer.com)](LICENSE)
 
 This is the source code for my website: [omartiffer.com](https://omartiffer.com). It’s intended to serve as a portfolio of projects I’m working on, and a blog to document my journey and share what I’m learning.
 
