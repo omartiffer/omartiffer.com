@@ -1,8 +1,9 @@
+import { z } from "astro/zod";
 import { glob } from "astro/loaders";
-import { z, defineCollection } from "astro:content";
+import { defineCollection } from "astro:content";
 
-export const pages = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "@content/pages" }),
+const pages = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/pages" }),
   schema: z.object({
     home: z
       .object({
@@ -23,7 +24,7 @@ export const pages = defineCollection({
           title: z.string(),
           content: z.string(),
         }),
-        timeline: z.object({
+        journey: z.object({
           title: z.string(),
           items: z.array(
             z.object({
@@ -101,3 +102,5 @@ export const pages = defineCollection({
       .optional(),
   }),
 });
+
+export const collections = { pages };

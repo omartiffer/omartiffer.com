@@ -5,7 +5,7 @@ import { getEntry, type CollectionEntry } from "astro:content";
 
 const {
   projects: { pageTitle, ...rest },
-} = ((await getEntry("pages", "projects")) as CollectionEntry<"projects">).data;
+} = ((await getEntry("pages", "projects")) as CollectionEntry<"pages">).data;
 ---
 
 <BaseLayout title={`Omar Tiffer - ${pageTitle}`}>
