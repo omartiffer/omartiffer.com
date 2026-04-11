@@ -12,5 +12,5 @@ export default defineConfig([
   { files: ["**/*.json"], plugins: { json }, language: "json/json" },
   { files: ["**/*.jsonc"], plugins: { json }, language: "json/jsonc" },
   { files: ["**/*.md"], plugins: { markdown }, language: "markdown/gfm" },
-  { files: ["**/*.css"], plugins: { css }, language: "css/css" },
+  { files: ["**/*.css"], plugins: { css }, language: "css/css", languageOptions: { tolerant: true } },
 ]);
