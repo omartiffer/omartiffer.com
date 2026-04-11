@@ -1,68 +1,37 @@
 @import "tailwindcss";
 
-@theme {
-  --color-base-100: transparent;
-  --color-base-300: transparent;
-  --color-base-200: transparent;
-  --color-base-content: transparent;
-  --color-primary: transparent;
-  --color-primary-content: transparent;
-  --color-secondary: transparent;
-  --color-secondary-content: transparent;
-  --color-accent: transparent;
-  --color-accent-content: transparent;
-  --color-neutral: transparent;
-  --color-neutral-content: transparent;
-  --color-info: transparent;
-  --color-info-content: transparent;
-  --color-success: transparent;
-  --color-success-content: transparent;
-  --color-warning: transparent;
-  --color-warning-content: transparent;
-  --color-error: transparent;
-  --color-error-content: transparent;
-  --radius-selector: 0;
-  --radius-field: 0;
-  --radius-box: 0;
-  --size-selector: 0;
-  --size-field: 0;
-  --border: 0;
-  --depth: 0;
-  --noise: 0;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
-@layer theme {
-  .light {
-    --font-sans: "Jost Variable", "sans-serif";
-    --color-base-100: oklch(100% 0 0);
-    --color-base-200: oklch(93% 0 0);
-    --color-base-300: oklch(86% 0 0);
-    --color-base-content: oklch(27.807% 0.029 256.847);
-    --color-primary: oklch(37.45% 0.189 325.02);
-    --color-primary-content: oklch(87.49% 0.037 325.02);
-    --color-secondary: oklch(53.92% 0.162 241.36);
-    --color-secondary-content: oklch(90.784% 0.032 241.36);
-    --color-accent: oklch(75.98% 0.204 56.72);
-    --color-accent-content: oklch(15.196% 0.04 56.72);
-    --color-neutral: oklch(27.807% 0.029 256.847);
-    --color-neutral-content: oklch(85.561% 0.005 256.847);
-    --color-info: oklch(72.06% 0.191 231.6);
-    --color-info-content: oklch(0% 0 0);
-    --color-success: oklch(64.8% 0.15 160);
-    --color-success-content: oklch(0% 0 0);
-    --color-warning: oklch(84.71% 0.199 83.87);
-    --color-warning-content: oklch(0% 0 0);
-    --color-error: oklch(71.76% 0.221 22.18);
-    --color-error-content: oklch(0% 0 0);
-    --radius-selector: 1rem;
-    --radius-field: 0.5rem;
-    --radius-box: 1rem;
-    --size-selector: 0.25rem;
-    --size-field: 0.25rem;
-    --border: 1px;
-    --depth: 1;
-    --noise: 0;
-  }
+@theme {
+  --font-sans: "Jost Variable", "sans-serif";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(93% 0 0);
+  --color-base-300: oklch(86% 0 0);
+  --color-base-content: oklch(27.807% 0.029 256.847);
+  --color-primary: oklch(37.45% 0.189 325.02);
+  --color-primary-content: oklch(87.49% 0.037 325.02);
+  --color-secondary: oklch(53.92% 0.162 241.36);
+  --color-secondary-content: oklch(90.784% 0.032 241.36);
+  --color-accent: oklch(75.98% 0.204 56.72);
+  --color-accent-content: oklch(15.196% 0.04 56.72);
+  --color-neutral: oklch(27.807% 0.029 256.847);
+  --color-neutral-content: oklch(85.561% 0.005 256.847);
+  --color-info: oklch(72.06% 0.191 231.6);
+  --color-info-content: oklch(0% 0 0);
+  --color-success: oklch(64.8% 0.15 160);
+  --color-success-content: oklch(0% 0 0);
+  --color-warning: oklch(84.71% 0.199 83.87);
+  --color-warning-content: oklch(0% 0 0);
+  --color-error: oklch(71.76% 0.221 22.18);
+  --color-error-content: oklch(0% 0 0);
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
 }
 
 @layer theme {
@@ -100,5 +69,7 @@
 }
 
 .cool-underline {
-  @apply underline decoration-3 decoration-accent decoration-dotted underline-offset-8;
+  text-decoration: underline dotted var(--color-accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
 }
