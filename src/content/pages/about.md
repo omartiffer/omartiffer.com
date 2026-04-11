@@ -3,15 +3,14 @@ about:
   pageTitle: "About"
   intro:
     title: "Quick intro"
-    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles, from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy focus now is on gradually expanding my skills in cloud platforms and DevOps practices, drawing on years of infrastructure work, programming experience, and a steady commitment to learning and automation."
+    content: "I started my journey in tech back in 2008, fresh out of college, configuring Linux servers at the domain registry of my country (.ni). It was hands-on, challenging, and laid the foundation for a diverse career spanning a range of technical roles, from systems administration to enterprise virtualization, technical sales, frontend development, and data migrations. My hands-on experience includes building infrastructure from scratch, designing, deploying, and supporting virtualization solutions, and creating responsive web apps. After relocating to the US, I began working on data migrations for customers adopting a legal SaaS platform, streamlining their onboarding by leveraging Python scripting, SQL, and API integrations.\nMy current focus is data migration — helping businesses move off legacy systems and into modern platforms. It's work that draws on my background in infrastructure, scripting, and client communication in a way that feels natural and practical."
   journey:
     title: "The timeline"
     items:
-      - date: "Today"
-        role: "Transition - Cloud & DevOps Exploration"
-        summary: "Over the past year, I’ve been gradually building my understanding of cloud architecture, modern DevOps practices, and related tooling. This phase has helped me clarify my long-term interests as I continue moving toward roles where I can connect my infrastructure background with programming and automation."
-        stack:
-          ["Linux", "Cloud", "Automation", "CI/CD", "IaC"]
+      - date: "2026 - Present"
+        role: "Data Migration Specialist - LegalTech SaaS (PracticePanther)"
+        summary: "Returned to the migrations team at PracticePanther, continuing to help law firms transition their data from legacy practice-management systems into the platform. Work involves client engagement, data transformation with Python and SQL, API-based post-migration fixes, and cross-team coordination with Customer Success and Support."
+        stack: ["Python", "SQL", "REST APIs", "Excel"]
       - date: "2023 - 2025"
         role: "Data Migration Engineer - LegalTech SaaS"
         summary: "I joined a legal management SaaS company as part of the migrations team, helping law firms transition their data from legacy systems into our platform. My role involved engaging with clients to understand their data sources, then transforming their data, whether from SQL backups or other formats, into our platform's import templates. I used tools like Python, SQL, and Excel to clean, parse, and reshape data for import. I also monitored import jobs, resolved issues, and occasionally used the API to make post-migration updates with custom scripts. Throughout the process, I kept close communication with clients over email and follow-up calls, often stepping in to answer product-related questions when needed."
@@ -81,12 +80,6 @@ about:
       all of them reflect parts of the journey and the areas I’ve spent time
       learning and working in."
     certList:
-      - name: "AWS Certified Solutions Architect - Associate"
-        img: "aws"
-        link: ""
-        valid: false
-        inProgress: true
-        status: "In progress"
       - name: "Microsoft Certified: Azure Fundamentals"
         img: "azure"
         link: "https://www.credly.com/badges/a41b8bc2-9679-4acf-ad5d-0ba231b56041/public_url"
@@ -131,7 +124,7 @@ about:
         status: "Expired"
   cta:
     - title: "Projects"
-      description: "Things I’ve been building while sharpening my Cloud and DevOps skills, small tools, experiments, and scripts that help me automate, learn, or solve something practical."
+      description: "Small tools, scripts, and experiments — things I’ve built to automate workflows, solve practical problems, or just learn something new."
       button: "Browse my projects"
     - title: "Blog (coming soon)"
       description: "Thoughts, notes, and observations from my learning journey and how I’m bridging infrastructure and code."
