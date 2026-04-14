@@ -2,6 +2,14 @@ import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { defineCollection } from "astro:content";
 
+const notes = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./notes",
+    generateId: ({ entry }) => entry.replace(/\.md$/, ""),
+  }),
+});
+
 const pages = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/pages" }),
   schema: z.object({
@@ -103,4 +111,4 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { pages };
+export const collections = { pages, notes };
