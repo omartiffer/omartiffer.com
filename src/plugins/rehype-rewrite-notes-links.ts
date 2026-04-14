@@ -10,7 +10,7 @@ function rewriteLinks(node: Node) {
   ) {
     const href = el.properties.href;
     if (!href.startsWith("http") && !href.startsWith("#") && href.endsWith(".md")) {
-      el.properties.href = "/notes/" + href.replace(/\.md$/, "");
+      el.properties.href = "/notes/" + href.replace(/\.md$/, "").replace(/^\//, "");
     }
   }
   if (el.children) {
