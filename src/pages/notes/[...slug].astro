@@ -18,18 +18,55 @@ const { Content, headings } = await render(note);
 const h1 = headings.find((h) => h.depth === 1);
 const title =
   h1?.text ?? note.id.split("/").pop()?.replace(/-/g, " ") ?? "Note";
+
+const segments = note.id.split("/");
+const hasTopic = segments.length > 1;
+
+// Maps directory names to display labels where simple title-casing is wrong.
+// The label also determines the anchor: label.toLowerCase().replace(/\s+/g, "-")
+const topicDisplayNames: Record<string, string> = {
+  "prompt-eng": "Prompt Engineering",
+};
+
+const topicLabel = hasTopic
+  ? (topicDisplayNames[segments[0]] ??
+    segments[0].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()))
+  : null;
+const topicHref = topicLabel
+  ? `/notes#${topicLabel.toLowerCase().replace(/\s+/g, "-")}`
+  : null;
 ---
 
 <BaseLayout title={`Omar Tiffer - ${title}`}>
   <section
     class="min-h-[calc(100dvh-128px)] w-full px-4 sm:px-6 lg:px-8 py-12 max-w-screen-xl mx-auto"
   >
-    <a
-      href="/notes"
-      class="text-base-content/70 hover:text-primary transition-colors duration-200 prose-lg"
-    >
-      &larr; Back to Notes
-    </a>
+    <nav aria-label="Breadcrumb">
+      <ol class="flex items-center gap-2 text-sm">
+        <li>
+          <a
+            href="/notes"
+            class="text-base-content/70 hover:text-primary transition-colors duration-200"
+            >Notes</a
+          >
+        </li>
+        {hasTopic && <li class="text-base-content/40" aria-hidden="true">/</li>}
+        {
+          hasTopic && (
+            <li>
+              <a
+                href={topicHref!}
+                class="text-base-content/70 hover:text-primary transition-colors duration-200"
+              >
+                {topicLabel}
+              </a>
+            </li>
+          )
+        }
+        <li class="text-base-content/40" aria-hidden="true">/</li>
+        <li class="text-base-content" aria-current="page">{title}</li>
+      </ol>
+    </nav>
     <article class="prose prose-lg max-w-none mt-8">
       <Content />
     </article>
