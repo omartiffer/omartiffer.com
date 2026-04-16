@@ -58,7 +58,7 @@ git clone --recurse-submodules https://github.com/omartiffer/omartiffer.com.git
 > The `notes/` directory is a git submodule. If you cloned without `--recurse-submodules`, run:
 >
 > ```bash
-> git submodule init && git submodule update
+> git submodule update --init --recursive
 > ```
 
 ### 2. Go into the project directory
