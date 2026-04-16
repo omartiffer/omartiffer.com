@@ -1,9 +1,9 @@
 ---
 import "@styles/global.css";
-import "@fontsource-variable/fira-code";
-import "@fontsource-variable/jetbrains-mono";
-import "@fontsource/fira-sans";
-import "@fontsource-variable/jost";
+import "@fontsource-variable/fira-code/index.css";
+import "@fontsource-variable/jetbrains-mono/index.css";
+import "@fontsource/fira-sans/index.css";
+import "@fontsource-variable/jost/index.css";
 import { ClientRouter } from "astro:transitions";
 
 const { pageTitle } = Astro.props;
@@ -11,8 +11,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!-- Google tag (gtag.js) -->
-<script src="https://www.googletagmanager.com/gtag/js?id=G-NW0FG1EMPL"
-></script><script>
+<script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-NW0FG1EMPL"
+></script><script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);

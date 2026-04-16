@@ -1,6 +1,5 @@
 import GitHub from "@assets/icons/github.svg";
 import LinkedIn from "@assets/icons/linkedin.svg";
-import X from "@assets/icons/x.svg";
 import Gmail from "@assets/icons/gmail.svg";
 
 const socialIcons = {

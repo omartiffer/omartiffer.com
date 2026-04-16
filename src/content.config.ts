@@ -106,6 +106,7 @@ const pages = defineCollection({
           desc: z.string(),
           list: z.array(z.string()),
         }),
+        contact: z.string(),
       })
       .optional(),
   }),
