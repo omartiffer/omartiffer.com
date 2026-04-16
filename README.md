@@ -9,37 +9,40 @@ This is the source code for my website: [omartiffer.com](https://omartiffer.com)
 ## 🛠️ Tech stack
 
 [![Cloudflare](https://img.shields.io/badge/cloudflare-%20domain%20hosting-grey?labelColor=F96702&style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/)
-[![Netlify](https://img.shields.io/badge/netlify-%20static%20site%20hosting-grey?labelColor=00C7B7&style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
-[![Astro](https://img.shields.io/badge/astro-grey?labelColor=BC52EE&style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
+[![Cloudflare Pages](https://img.shields.io/badge/cloudflare%20pages-%20static%20site%20hosting-grey?labelColor=F96702&style=for-the-badge&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
+[![Astro](https://img.shields.io/badge/astro%20v6-grey?labelColor=BC52EE&style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
 [![Tailwind](https://img.shields.io/badge/tailwind-grey?labelColor=06B6D4&style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/typescript-grey?labelColor=3178C6&style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ## ✨ Features
 
-- ⚡ Built with Astro and Tailwind CSS
-- 📱 Responsive design
+- ⚡ Built with Astro v6 and Tailwind CSS v4
+- 📱 Responsive design with light/dark theme
 - 🧩 Component-based structure
 - 📝 Markdown-powered content pages
-- 🖊️ Blog (coming soon)
+- 📓 Notes section with topic-based organization
+- 🔀 View Transitions for client-side navigation
 
 ## 📂 Project Structure
 
 ```text
 /
-├── public/                     # Static assets (images, icons, etc.)
+├── notes/                      # Notes content collection (git submodule)
+├── public/                     # Static assets (favicon, videos)
 ├── src/
-│   ├── components/             # Shared components
-│   ├── config/                 # Config files (menu and social icons)
-│   ├── content/                # Content collection for all pages
-│   ├── layouts/                # Shared layout components
-│   ├── pages/                  # Site pages (e.g., index.astro)
-│   └── content.config.ts       # Collection definitions
-├── .gitignore                  # Files to ignore in Git
-├── .prettierrc                 # Code formatting
-├── .tmxsrc                     # Tmux sessionizer bootstrapper
-├── LICENSE                     # License file
+│   ├── assets/                 # Images and SVG icons
+│   ├── components/             # Astro UI components
+│   ├── config/                 # Static data (menu, social icons, cert/project images)
+│   ├── content/pages/          # Page content as Markdown with YAML frontmatter
+│   ├── layouts/                # BaseLayout (single root layout)
+│   ├── pages/                  # Astro file-based routing
+│   │   └── notes/              # Notes section (index + dynamic routes)
+│   ├── scripts/components/     # Client-side TypeScript
+│   ├── styles/                 # Global CSS (Tailwind v4 config)
+│   └── content.config.ts       # Collection schemas (Zod + glob loader)
 ├── astro.config.mjs            # Astro project config
-├── eslint.config.js            # Linting rules
+├── eslint.config.js            # ESLint flat config
+├── wrangler.jsonc              # Cloudflare Pages deployment config
 ├── package.json                # Dependencies and scripts
 └── tsconfig.json               # TypeScript settings
 ```
@@ -49,8 +52,14 @@ This is the source code for my website: [omartiffer.com](https://omartiffer.com)
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/omartiffer/omartiffer.com.git
+git clone --recurse-submodules https://github.com/omartiffer/omartiffer.com.git
 ```
+
+> The `notes/` directory is a git submodule. If you cloned without `--recurse-submodules`, run:
+>
+> ```bash
+> git submodule init && git submodule update
+> ```
 
 ### 2. Go into the project directory
 
