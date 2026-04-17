@@ -9,6 +9,7 @@ export const seo = {
     jobTitle: "Data Migration Specialist",
     url: "https://omartiffer.com",
     github: "https://github.com/omartiffer",
+    gitlab: "https://gitlab.com/omartiffer",
     linkedin: "https://www.linkedin.com/in/omartiffer/",
   },
 };
