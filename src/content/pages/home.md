@@ -1,6 +1,6 @@
 ---
 home:
-  pageTitle: "Home"
+  description: "Personal website of Omar Tiffer, a Data Migration Specialist with 18+ years in tech spanning Linux infrastructure, enterprise systems, and software."
   greeting: "Hi there!"
   title: "I'm Omar Tiffer"
   subTitle: "Data Migration Specialist"

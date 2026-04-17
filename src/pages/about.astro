@@ -7,12 +7,12 @@ import AboutCerts from "@components/AboutCerts.astro";
 import AboutCTA from "@components/AboutCTA.astro";
 import AboutClosing from "@components/AboutClosing.astro";
 
-const { pageTitle, intro, journey, cta, certs, closing } = (
+const { description, intro, journey, cta, certs, closing } = (
   (await getEntry("pages", "about")) as CollectionEntry<"pages">
 ).data.about!;
 ---
 
-<BaseLayout title={`Omar Tiffer - ${pageTitle}`}>
+<BaseLayout title="About | Omar Tiffer" description={description}>
   <AboutIntro intro={intro} />
   <AboutJourney journey={journey} />
   <AboutCTA cta={cta} />

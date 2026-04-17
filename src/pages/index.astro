@@ -2,12 +2,26 @@
 import Hero from "@components/Hero.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getEntry, type CollectionEntry } from "astro:content";
+import { seo } from "@config/seo";
 
-const { pageTitle, ...rest } = (
+const { description, ...rest } = (
   (await getEntry("pages", "home")) as CollectionEntry<"pages">
 ).data.home!;
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: seo.author.name,
+  url: seo.author.url,
+  jobTitle: seo.author.jobTitle,
+  sameAs: [seo.author.github, seo.author.gitlab, seo.author.linkedin],
+};
 ---
 
-<BaseLayout title={`Omar Tiffer - ${pageTitle}`}>
+<BaseLayout
+  title="Omar Tiffer | Data Migration Specialist"
+  description={description}
+  jsonLd={personSchema}
+>
   <Hero {...rest} />
 </BaseLayout>
