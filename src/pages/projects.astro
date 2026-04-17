@@ -3,11 +3,11 @@ import ProjectList from "@components/ProjectList.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getEntry, type CollectionEntry } from "astro:content";
 
-const { ...rest } = (
+const { description, title, projectList } = (
   (await getEntry("pages", "projects")) as CollectionEntry<"pages">
 ).data.projects!;
 ---
 
-<BaseLayout title="Projects | Omar Tiffer" description={rest.description}>
-  <ProjectList {...rest} />
+<BaseLayout title="Projects | Omar Tiffer" description={description}>
+  <ProjectList title={title} description={description} projectList={projectList} />
 </BaseLayout>
