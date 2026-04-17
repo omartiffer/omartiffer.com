@@ -15,7 +15,7 @@ const pages = defineCollection({
   schema: z.object({
     home: z
       .object({
-        pageTitle: z.string(),
+        description: z.string(),
         greeting: z.string().optional(),
         title: z.string(),
         subTitle: z.string(),
@@ -27,7 +27,7 @@ const pages = defineCollection({
       .optional(),
     about: z
       .object({
-        pageTitle: z.string(),
+        description: z.string(),
         intro: z.object({
           title: z.string(),
           content: z.string(),
@@ -74,9 +74,8 @@ const pages = defineCollection({
       .optional(),
     projects: z
       .object({
-        pageTitle: z.string(),
-        title: z.string(),
         description: z.string(),
+        title: z.string(),
         projectList: z.array(
           z.object({
             title: z.string(),
@@ -91,7 +90,7 @@ const pages = defineCollection({
       .optional(),
     privacy: z
       .object({
-        pageTitle: z.string(),
+        description: z.string(),
         title: z.string(),
         lastUpdated: z.string(),
         maintainer: z.string(),

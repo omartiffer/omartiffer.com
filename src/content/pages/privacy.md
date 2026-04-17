@@ -1,6 +1,6 @@
 ---
 privacy:
-  pageTitle: "Privacy"
+  description: "Privacy policy for omartiffer.com — details on Google Analytics usage, cookies, IP anonymization, and your data rights."
   title: "Privacy Policy"
   lastUpdated: "05/23/2025"
   maintainer: "This is a personal website created and maintained by Omar Tiffer."
